@@ -8,7 +8,7 @@ CREATE TABLE Progress_Patient_Attitude_Status (
 	mse_check_pn_attit_suspicous BIT NOT NULL DEFAULT 0,
 	mse_check_pn_attit_apathetic BIT NOT NULL DEFAULT 0,
 	mse_check_pn_attit_fearful BIT NOT NULL DEFAULT 0,
-	progress_note_data DATE BIT NOT NULL,
+	progress_note_data DATE NOT NULL,
 	ACN BIGINT NOT NULL
 )
 

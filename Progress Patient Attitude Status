@@ -12,6 +12,7 @@ CREATE TABLE Progress_Patient_Attitude_Status (
 	ACN BIGINT NOT NULL
 )
 
+
 insert into Progress_Patient_Attitude_Status (mse_check_pn_attit_calm, mse_check_pn_attit_cooperative, mse_check_pn_attit_uncooperative, mse_check_pn_attit_belligerent, mse_check_pn_attit_negativistic mse_check_pn_attit_suspicous, mse_check_pn_attit_apathetic, mse_check_pn_attit_fearful, progress_note_date, ACN) values (1, 1, 0, 0, 0, 0, 0, 0, '02/26/2019', 53847123888);
 insert into Progress_Patient_Attitude_Status (mse_check_pn_attit_calm, mse_check_pn_attit_cooperative, mse_check_pn_attit_uncooperative, mse_check_pn_attit_belligerent, mse_check_pn_attit_negativistic mse_check_pn_attit_suspicous, mse_check_pn_attit_apathetic, mse_check_pn_attit_fearful, progress_note_date, ACN) values (1, 1, 0, 0, 0, 0, 0, 0, '08/22/2020', 53239821780);
 insert into Progress_Patient_Attitude_Status (mse_check_pn_attit_calm, mse_check_pn_attit_cooperative, mse_check_pn_attit_uncooperative, mse_check_pn_attit_belligerent, mse_check_pn_attit_negativistic mse_check_pn_attit_suspicous, mse_check_pn_attit_apathetic, mse_check_pn_attit_fearful, progress_note_date, ACN) values (0, 0, 1, 0, 0, 0, 0, 0, '06/22/2019', 49498809929);

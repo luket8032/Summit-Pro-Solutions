@@ -1,6 +1,0 @@
-CREATE TABLE Progress_Psychiatric_Diagnosis_List (
-pn_psych_dx_idcode BIT NOT NULL DEFAULT 0,
-pn_psych_dx_icd10_name BIT NOT NULL DEFAULT 0,
-progress_note_date DATE NOT NULL,
-ACN BIGINT NOT NULL,
-)

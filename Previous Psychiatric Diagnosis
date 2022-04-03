@@ -39,7 +39,7 @@ insert into Previous_psychiatric_diagnosis  (pph_prev_diagnosis_psych, pph_check
 insert into Previous_psychiatric_diagnosis  (pph_prev_diagnosis_psych, pph_check_prev_diagnosis_psych_none, pph_check_prev_diagnosis_psych_dna, ACN) values ('Schizophrenia', 0, 0, 62410446126);
 insert into Previous_psychiatric_diagnosis  (pph_prev_diagnosis_psych, pph_check_prev_diagnosis_psych_none, pph_check_prev_diagnosis_psych_dna, ACN) values ('Sleep disorder', 0, 0, 38867183592);
 insert into Previous_psychiatric_diagnosis  (pph_prev_diagnosis_psych, pph_check_prev_diagnosis_psych_none, pph_check_prev_diagnosis_psych_dna, ACN) values ('Puberty', 0, 0, 78466739510);
-insert into Previous_psychiatric_diagnosis  (pph_prev_diagnosis_psych, pph_check_prev_diagnosis_psych_none, pph_check_prev_diagnosis_psych_dna, ACN) values ('Psychological illness affecting pregnancy', 0, 0, 41930101396);
+insert into Previous_psychiatric_diagnosis  (pph_prev_diagnosis_psych, pph_check_prev_diagnosis_psych_none, pph_check_prev_diagnosis_psych_dna, ACN) values ('Psychological illness', 0, 0, 41930101396);
 insert into Previous_psychiatric_diagnosis  (pph_prev_diagnosis_psych, pph_check_prev_diagnosis_psych_none, pph_check_prev_diagnosis_psych_dna, ACN) values (NULL, 1, 0, 44840351499);
 insert into Previous_psychiatric_diagnosis  (pph_prev_diagnosis_psych, pph_check_prev_diagnosis_psych_none, pph_check_prev_diagnosis_psych_dna, ACN) values (NULL, 1, 0, 08945528068);
 insert into Previous_psychiatric_diagnosis  (pph_prev_diagnosis_psych, pph_check_prev_diagnosis_psych_none, pph_check_prev_diagnosis_psych_dna, ACN) values ('Psychological disorder', 0, 0, 74370793028);

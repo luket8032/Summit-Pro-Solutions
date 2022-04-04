@@ -26,7 +26,7 @@ insert into Patient_admission_reason (reason_self_danger, reason_deterioration, 
 insert into Patient_admission_reason (reason_self_danger, reason_deterioration, reason_inability, reason_psychosis, reason_dependency, ACN) values (0, 1, 0, 0, 0, 67406231076);
 insert into Patient_admission_reason (reason_self_danger, reason_deterioration, reason_inability, reason_psychosis, reason_dependency, ACN) values (0, 0, 1, 0, 0, 70400507649);
 insert into Patient_admission_reason (reason_self_danger, reason_deterioration, reason_inability, reason_psychosis, reason_dependency, ACN) values (0, 1, 0, 0, 1, 88514553439);
-insert into Patient_admission_reason (reason_self_danger, reason_deterioration, reason_inability, reason_psychosis, reason_dependency, ACN) values (0, 1, 1, 0, 0, 746496749988);
+insert into Patient_admission_reason (reason_self_danger, reason_deterioration, reason_inability, reason_psychosis, reason_dependency, ACN) values (0, 1, 1, 0, 0, 74649674998);
 insert into Patient_admission_reason (reason_self_danger, reason_deterioration, reason_inability, reason_psychosis, reason_dependency, ACN) values (0, 1, 1, 0, 0, 71297297573);
 insert into Patient_admission_reason (reason_self_danger, reason_deterioration, reason_inability, reason_psychosis, reason_dependency, ACN) values (0, 0, 1, 0, 0, 65541665839);
 insert into Patient_admission_reason (reason_self_danger, reason_deterioration, reason_inability, reason_psychosis, reason_dependency, ACN) values (0, 1, 0, 0, 1, 47690387353);

@@ -1,7 +1,46 @@
 CREATE TABLE DischargeSummaryDiagnosis(
 dcs_dx_medical varchar(1000),
 dcs_dx_psych varchar(1000),
-dcs_dx_findings varchar (1000),
 ACN bigint NOT NULL
 );
 
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Other chondrocalcinosis, ankle and foot', 'Psychological illness', 53847123888);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Poisoning by unspecified narcotics, assault', 'Sleep disorder', 53239821780);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Noninflammatory disorder of uterus, unspecified', 'Bipolar', 49498809929);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Bariatric surgery status comp pregnancy, third trimester', 'Unspecified psychological disorder', 80829362529);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Unspecified injury of body of pancreas', 'Depression', 50662091342);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Poisoning by unsp general anesthetics, undetermined, subs', 'Non psychotic psychological disorder', 45293676173);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Psoas tendinitis, right hip', 'Psychological disorder', 76056640986);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Salmonella arthritis', 'Mood disorder', 41895268601);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Conjunctival pigmentations, unspecified eye', 'Non psychotic mental disorder', 63057262696);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Other synovitis and tenosynovitis, thigh', 'Non psychotic psychological disorder', 55515315988);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Jump/div into swimming pool striking wall causing drown', 'Mental disorder', 89834143459);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Inj cutan sensory nerve at shldr/up arm, right arm, sequela', 'Bipolar', 69719499750);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Contact with other hot fluids', 'Psychological disorder in pregnancy', 45129431988);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('External constriction of part of breast, left breast, subs', 'Schizophrenia', 73373085843);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Drown due to oth accident to canoe or kayak, subs', 'Psychological illness', 40895957518);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Osteitis condensans, right ankle and foot', 'Schizophrenia', 96102361618);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Nondisp fx of medial phalanx of right little finger, sequela', 'Mood disorder', 67406231076);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Nondisplaced articular fracture of head of unspecified femur', 'ADHD', 70400507649);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Nondisp fx of coronoid process of left ulna, init', 'Mental disorder', 88514553439);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Poisoning by therapeutic gases, self-harm, sequela', 'Puberty', 74649674998);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Displ suprcndl fx w/o intrcndl extn low end l femr, 7thR', 'Psychological disorder in pregnancy', 71297297573);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Lacerat extn musc/fasc/tend r idx fngr at wrs/hnd lv, sqla', 'Psychological illness', 65541665839);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Puncture wound with foreign body of scalp, sequela', 'Puberty', 47690387353);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Acquired absence of limb, unspecified', 'Psychological disorder in pregnancy', 48119830340);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Laceration of unsp kidney, unspecified degree, init encntr', 'Anxiety disorder', 91885989859);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Anterior subluxation of unspecified humerus, sequela', 'Bipolar', 31179873541);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Pedl cyc pasngr inj in clsn w nonmtr vehicle nontraf, init', 'Bipolar', 33144119346);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Lesion of radial nerve, bilateral upper limbs', 'Psychological illness', 32898264888);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Other bursitis, not elsewhere classified, unspecified elbow', 'Mental disorder', 62232077150);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Nocardiosis, unspecified', 'Mental disorder in childbirth', 32240110223);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Laceration of left quadriceps muscle, fascia and tendon', 'Mental disorder', 41052277807);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Excessive menstruation at puberty', 'Mental disorder', 62410446126);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Breakdown (mechanical) of other urinary stents, subs', 'Mood disorder', 38867183592);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Non-prs chronic ulcer oth prt l low leg w necrosis of bone', 'Puberty', 78466739510);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Displ transverse fx shaft of l rad, 7thC', 'ADHD', 41930101396);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Cerebral infarction due to thombos unsp cerebellar artery', 'Psychological disorder', 44840351499);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Colles'' fx unsp rad, subs for opn fx type 3A/B/C w nonunion', 'ADHD', 08945528068);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Diabetes due to underlying condition w hyprosm w coma', 'Unspecified psychological disorder', 74370793028);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Transient synovitis, left elbow', 'Psychological illness', 90140095798);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Displ transverse fx shaft of r fibula, 7thG', 'Bipolar', 05699724843);

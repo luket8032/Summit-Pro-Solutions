@@ -1,6 +1,6 @@
 CREATE TABLE Evaluation_psychiatric_diagnosis (
-    dx_eval_psych VARCHAR(1000),
     dx_eval_medcial VARCHAR(1000),
+    dx_eval_psych VARCHAR(1000)
     ACN BIGINT NOT NULL
 )   
 

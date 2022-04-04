@@ -1,7 +1,7 @@
 CREATE TABLE DischargeSummaryDiagnosis(
-id int IDENTITY (1,1) PRIMARY KEY,
-ACN bigint NOT NULL,
-dcs_dx_psych varchar(1000),
 dcs_dx_medical varchar(1000),
-dcs_dx_findings varchar (1000)
+dcs_dx_psych varchar(1000),
+dcs_dx_findings varchar (1000),
+ACN bigint NOT NULL
 );
+

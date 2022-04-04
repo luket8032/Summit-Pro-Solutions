@@ -1,5 +1,45 @@
 CREATE TABLE DischargeSummaryDischargeLocations(
-id int IDENTITY (1,1) PRIMARY KEY,
-ACN bigint NOT NULL,
-dcs_disch_loc_name varchar(50)
+dcs_disch_loc_name varchar(100),
+ACN bigint NOT NULL
 );
+
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Haven Behavioral Hospital of Albuquerque', 53847123888);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Peak Behavioral Health Services', 53239821780);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Peak Behavioral Health Services', 49498809929);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('New Mexico Behavioral Health Institute', 80829362529);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 50662091342);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Mesilla Valley Hospital-Tfc', 45293676173);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 76056640986);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Discharged home', 41895268601);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Mesilla Valley Hospital-Tfc', 63057262696);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 55515315988);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Peak Behavioral Health Services', 89834143459);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Peak Behavioral Health Services', 69719499750);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('New Mexico Behavioral Health Institute', 45129431988);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Haven Behavioral Hospital of Albuquerque', 73373085843);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 40895957518);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Discharged home', 96102361618);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Peak Behavioral Health Services', 67406231076);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Mesilla Valley Hospital-Tfc', 70400507649);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('New Mexico Behavioral Health Institute', 88514553439);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 74649674998);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Mesilla Valley Hospital', 71297297573);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Mesilla Valley Hospital', 65541665839);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('UNM Children''s Psychiatric', 47690387353);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Peak Behavioral Health Services', 48119830340);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 91885989859);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Presbyterian Inpatient Behavioral Health in Albuquerque at Kaseman Hospital', 31179873541);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Discharged home', 33144119346);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 32898264888);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 62232077150);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 32240110223);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 41052277807);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Presbyterian Inpatient Behavioral Health in Albuquerque at Kaseman Hospital', 62410446126);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('New Mexico Behavioral Health Institute', 38867183592);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Mesilla Valley Hospital-Tfc', 78466739510);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Discharged home', 41930101396);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Mesilla Valley Hospital', 44840351499);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 08945528068);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Presbyterian Inpatient Behavioral Health in Albuquerque at Kaseman Hospital', 74370793028);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Presbyterian Inpatient Behavioral Health in Albuquerque at Kaseman Hospital', 90140095798);
+insert into DischargeSummaryDischargeLocations (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 05699724843);

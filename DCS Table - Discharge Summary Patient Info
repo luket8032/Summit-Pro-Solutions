@@ -1,5 +1,4 @@
 CREATE TABLE DischargeSummaryPatientInfo (
-id int IDENTITY (1,1) PRIMARY KEY,
 ACN bigint NOT NULL,
 dcs_patient_mrn int,
 dcs_patient_firstname varchar(50),

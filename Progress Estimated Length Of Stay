@@ -1,55 +1,54 @@
 CREATE TABLE Progress_Estimated_Length_of_Stay (
-len_check_pn_less5 BIT NOT NULL DEFAULT 0,
-len_check_pn_5to7 BIT NOT NULL DEFAULT 0,
-len_check_pn_more7 BIT NOT NULL DEFAULT 0,
+len_check_pn_sameday BIT NOT NULL DEFAULT 0,
+len_check_pn_overnight BIT NOT NULL DEFAULT 0,
+len_check_pn_recommend_inpatient_stay BIT NOT NULL DEFAULT 0,
 len_check_pn_to_be_determined BIT NOT NULL DEFAULT 0,
-len_check_pn_other VARCHAR(1000),
-progress_note_date DATE NOT NULL,
-ACN BIGINT NOT NULL,
+progress_note_date VARCHAR(1000),
+ACN BIGINT NOT NULL
 )
 
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (0, 1, 0, 0, null, '02/26/2019', 53847123888);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (0, 1, 0, 0, null, '08/22/2020', 53239821780);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (0, 1, 0, 0, null, '06/22/2019', 49498809929);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (0, 1, 0, 0, null, '08/05/2021', 80829362529);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '10/10/2021', 50662091342);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '04/11/2021', 45293676173);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '07/28/2019', 76056640986);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '12/25/2020', 41895268601);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '06/13/2020', 63057262696);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '01/03/2019', 55515315988);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '01/06/2020', 89834143459);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '07/27/2021', 69719499750);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '11/19/2019', 45129431988);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '10/03/2019', 73373085843);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '05/16/2020', 40895957518);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '02/04/2022', 96102361618);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '11/07/2021', 67406231076);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '08/02/2021', 70400507649);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '11/13/2019', 88514553439);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '05/14/2019', 74649674998);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '01/15/2019', 71297297573);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '09/22/2019', 65541665839);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '11/20/2020', 47690387353);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '03/29/2021', 48119830340);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '03/16/2021', 91885989859);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '08/14/2021', 31179873541);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '04/19/2021', 33144119346);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '01/18/2020', 32898264888);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '06/06/2021', 62232077150);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '05/21/2020', 32240110223);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '05/03/2021', 41052277807);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '07/11/2020', 62410446126);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '07/08/2019', 38867183592);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '12/20/2021', 78466739510);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '04/12/2021', 41930101396);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '03/14/2020', 44840351499);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '08/07/2019', 08945528068);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '04/09/2020', 74370793028);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '04/30/2021', 90140095798);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '06/08/2021', 05699724843);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '02/27/2019', 53847123888);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '08/23/2020', 53239821780);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '06/23/2019', 49498809929);
-insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, progress_note_date, ACN) VALUES (1, 0, 0, 0, null, '08/06/2021', 80829362529);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (0, 1, 0, 0, '02/26/2019', 53847123888);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (0, 1, 0, 0, '08/22/2020', 53239821780);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (0, 1, 0, 0, '06/22/2019', 49498809929);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (0, 1, 0, 0, '08/05/2021', 80829362529);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '10/10/2021', 50662091342);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '04/11/2021', 45293676173);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '07/28/2019', 76056640986);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '12/25/2020', 41895268601);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '06/13/2020', 63057262696);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '01/03/2019', 55515315988);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '01/06/2020', 89834143459);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '07/27/2021', 69719499750);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '11/19/2019', 45129431988);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '10/03/2019', 73373085843);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '05/16/2020', 40895957518);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '02/04/2022', 96102361618);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '11/07/2021', 67406231076);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '08/02/2021', 70400507649);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '11/13/2019', 88514553439);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '05/14/2019', 74649674998);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '01/15/2019', 71297297573);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '09/22/2019', 65541665839);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '11/20/2020', 47690387353);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '03/29/2021', 48119830340);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '03/16/2021', 91885989859);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '08/14/2021', 31179873541);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '04/19/2021', 33144119346);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '01/18/2020', 32898264888);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '06/06/2021', 62232077150);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '05/21/2020', 32240110223);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '05/03/2021', 41052277807);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '07/11/2020', 62410446126);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '07/08/2019', 38867183592);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '12/20/2021', 78466739510);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '04/12/2021', 41930101396);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '03/14/2020', 44840351499);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '08/07/2019', 08945528068);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '04/09/2020', 74370793028);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '04/30/2021', 90140095798);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '06/08/2021', 05699724843);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '02/27/2019', 53847123888);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '08/23/2020', 53239821780);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '06/23/2019', 49498809929);
+insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '08/06/2021', 80829362529);
 

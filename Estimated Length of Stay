@@ -1,9 +1,7 @@
 CREATE TABLE Estimated_length_of_stay (
-    len_check_eval_less5 BIT NOT NULL DEFAULT 0,
-    len_check_eval_5to7 BIT NOT NULL DEFAULT 0,
-    len_check_eval_more7 BIT NOT NULL DEFAULT 0,
-    len_check_eval_to_be_determined BIT NOT NULL DEFAULT 0,
-    len_opentxt_eval_other BIT NOT NULL DEFAULT 0,
+    len_check_eval_sameday BIT NOT NULL DEFAULT 0,
+    len_check_eval_overnight BIT NOT NULL DEFAULT 0,
+    len_check_eval_recommend_inpatient_stay BIT NOT NULL DEFAULT 0,
     ACN BIGINT NOT NULL
 )
 

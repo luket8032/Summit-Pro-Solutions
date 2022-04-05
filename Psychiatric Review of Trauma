@@ -49,3 +49,4 @@ insert into Psychiatric_review_of_trauma  (prs_check_trauma_abuse, prs_check_tra
 insert into Psychiatric_review_of_trauma  (prs_check_trauma_abuse, prs_check_trauma_nightmare, prs_check_trauma_avoid, prs_check_trauma_guilt, prs_check_trauma_hyperarousal, prs_check_trauma_no_ptsd_symptoms, prs_check_trauma_patient_notengaging, ACN) values (1, 0, 0, 1, 1, 0, 0, 74370793028);
 insert into Psychiatric_review_of_trauma  (prs_check_trauma_abuse, prs_check_trauma_nightmare, prs_check_trauma_avoid, prs_check_trauma_guilt, prs_check_trauma_hyperarousal, prs_check_trauma_no_ptsd_symptoms, prs_check_trauma_patient_notengaging, ACN) values (0, 0, 0, 1, 1, 0, 0, 90140095798);
 insert into Psychiatric_review_of_trauma  (prs_check_trauma_abuse, prs_check_trauma_nightmare, prs_check_trauma_avoid, prs_check_trauma_guilt, prs_check_trauma_hyperarousal, prs_check_trauma_no_ptsd_symptoms, prs_check_trauma_patient_notengaging, ACN) values (1, 0, 0, 0, 1, 0, 0, 05699724843);
+

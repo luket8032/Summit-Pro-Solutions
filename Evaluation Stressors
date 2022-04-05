@@ -1,4 +1,4 @@
-CREATE TABLE Evaluation_stressor (
+CREATE TABLE Evaluation_stressors (
     strs_check_eval_problems_support BIT NOT NULL DEFAULT 0,
     strs_check_eval_housing_problems BIT NOT NULL DEFAULT 0,
     strs_check_eval_healthcare_problems BIT NOT NULL DEFAULT 0,

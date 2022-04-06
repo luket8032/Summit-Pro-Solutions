@@ -46,3 +46,4 @@ insert into Family_history_of_suicide_attempts (fhp_suicide_attempt_qty, fhp_sui
 insert into Family_history_of_suicide_attempts (fhp_suicide_attempt_qty, fhp_suicide_attempt_family_memeber, fhp_check_suicide_attempt_none, fhp_check_suicide_attempt_patient_dna, ACN) values (0, NULL, 1, 0, 74370793028);
 insert into Family_history_of_suicide_attempts (fhp_suicide_attempt_qty, fhp_suicide_attempt_family_memeber, fhp_check_suicide_attempt_none, fhp_check_suicide_attempt_patient_dna, ACN) values (1, 'Grandparents', 0, 0, 90140095798);
 insert into Family_history_of_suicide_attempts (fhp_suicide_attempt_qty, fhp_suicide_attempt_family_memeber, fhp_check_suicide_attempt_none, fhp_check_suicide_attempt_patient_dna, ACN) values (0, NULL, 1, 0, 05699724843);
+

@@ -50,3 +50,4 @@ insert into Patient_gait_status (mse_check_eval_gait_normal, mse_check_eval_gait
 insert into Patient_gait_status (mse_check_eval_gait_normal, mse_check_eval_gait_awkward, mse_check_eval_gait_staggering, mse_check_eval_gait_shuffling, mse_check_eval_gait_rigid, mse_check_eval_gait_high_stepping, ACN) values (0, 1, 0, 1, 0, 0, 05699724843);
 
 
+

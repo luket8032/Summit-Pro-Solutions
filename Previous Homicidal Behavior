@@ -5,17 +5,17 @@ CREATE TABLE Previous_homicidal_behavior (
     ACN BIGINT NOT NULL
 )
 
-insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 0, 1, 53847123888);
-insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 0, 1, 53239821780);
-insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 49498809929);
-insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 0, 1, 80829362529);
+insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values ('Unsocialized conduct disorder', 0, 0, 53847123888);
+insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values ('Narcissistic personality disorder,', 0, 0, 53239821780);
+insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values ('antisocial personality disorder', 0, 0, 49498809929);
+insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values ('Socialized conduct disorder', 0, 0, 80829362529);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 0, 1, 50662091342);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 0, 1, 45293676173);
-insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 0, 1, 76056640986);
+insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values ('antisocial personality disorder', 0, 0, 76056640986);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 41895268601);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 1, 63057262696);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 1, 55515315988);
-insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 89834143459);
+insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values ('Unsocialized conduct disorder', 0, 0, 89834143459);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 1, 69719499750);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 45129431988);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 73373085843);
@@ -27,21 +27,21 @@ insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_p
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 74649674998);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 71297297573);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 65541665839);
-insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 47690387353);
+insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values ('Unsocialized conduct disorder', 0, 0, 47690387353);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 48119830340);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 91885989859);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 0, 1, 31179873541);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 0, 1, 33144119346);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 1, 32898264888);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 0, 1, 62232077150);
-insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 32240110223);
+insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values ('Unsocialized conduct disorder', 0, 0, 32240110223);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 1, 41052277807);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 1, 62410446126);
-insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 1, 38867183592);
+insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values ('antisocial personality disorder', 0, 0, 38867183592);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 78466739510);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 0, 1, 41930101396);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 1, 44840351499);
-insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 1, 08945528068);
-insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 1, 74370793028);
+insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values ('Unsocialized conduct disorder', 0, 0, 08945528068);
+insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values ('Unsocialized conduct disorder', 0, 0, 74370793028);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 90140095798);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 0, 1, 05699724843);

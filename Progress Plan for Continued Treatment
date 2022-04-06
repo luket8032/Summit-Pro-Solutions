@@ -53,3 +53,5 @@ insert into Progress_Plan_for_Continued_Treatment  (pct_pn_check_medication_mgmt
 insert into Progress_Plan_for_Continued_Treatment  (pct_pn_check_medication_mgmt, pct_pn_check_coping_skills, pct_pn_check_group_therapy, pct_pn_check_program_participation, pct_pn_opentxt_other, progress_note_date, ACN) values (1, 1, 0, 0, null, '08/23/2020', 53239821780);
 insert into Progress_Plan_for_Continued_Treatment  (pct_pn_check_medication_mgmt, pct_pn_check_coping_skills, pct_pn_check_group_therapy, pct_pn_check_program_participation, pct_pn_opentxt_other, progress_note_date, ACN) values (0, 1, 1, 1, null, '06/23/2019', 49498809929);
 insert into Progress_Plan_for_Continued_Treatment  (pct_pn_check_medication_mgmt, pct_pn_check_coping_skills, pct_pn_check_group_therapy, pct_pn_check_program_participation, pct_pn_opentxt_other, progress_note_date, ACN) values (1, 0, 0, 0, null, '08/06/2021', 80829362529);
+
+

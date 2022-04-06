@@ -53,3 +53,4 @@ insert into Progress_Patient_Weight_Status  (mse_check_pn_wt_average, mse_check_
 insert into Progress_Patient_Weight_Status  (mse_check_pn_wt_average, mse_check_pn_wt_overweight, mse_check_pn_wt_obese, mse_check_pn_wt_underweight, progress_note_date, ACN) values (0, 1, 0, 0, '06/23/2019', 49498809929);
 insert into Progress_Patient_Weight_Status  (mse_check_pn_wt_average, mse_check_pn_wt_overweight, mse_check_pn_wt_obese, mse_check_pn_wt_underweight, progress_note_date, ACN) values (0, 0, 0, 1, '08/06/2021', 80829362529)
 
+

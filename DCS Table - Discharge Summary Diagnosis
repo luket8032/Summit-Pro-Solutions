@@ -4,10 +4,10 @@ dcs_dx_psych varchar(1000),
 ACN bigint NOT NULL
 );
 
-insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Other chondrocalcinosis, ankle and foot', 'Psychological illness', 53847123888);
-insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Poisoning by unspecified narcotics, assault', 'Sleep disorder', 53239821780);
-insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Noninflammatory disorder of uterus, unspecified', 'Bipolar', 49498809929);
-insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Bariatric surgery status comp pregnancy, third trimester', 'Unspecified psychological disorder', 80829362529);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Other chondrocalcinosis, ankle and foot', 'Bipolar affective disorder, current episode manic without psychotic symptoms', 53847123888);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Poisoning by unspecified narcotics, assault', 'Severe depressive episode with psychotic symptoms', 53239821780);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Noninflammatory disorder of uterus, unspecified', 'Recurrent depressive disorder, currently in remission', 49498809929);
+insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Bariatric surgery status comp pregnancy, third trimester', 'Recurrent depressive disorder, current episode severe with psychotic symptoms', 80829362529);
 insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Unspecified injury of body of pancreas', 'Depression', 50662091342);
 insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Poisoning by unsp general anesthetics, undetermined, subs', 'Non psychotic psychological disorder', 45293676173);
 insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Psoas tendinitis, right hip', 'Psychological disorder', 76056640986);

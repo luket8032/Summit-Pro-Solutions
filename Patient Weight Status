@@ -47,3 +47,4 @@ insert into Patient_weight_status  (mse_check_eval_wt_average, mse_check_eval_wt
 insert into Patient_weight_status  (mse_check_eval_wt_average, mse_check_eval_wt_overweight, mse_check_eval_wt_obese, mse_check_eval_underweight, ACN) values (0, 1, 0, 0, 90140095798);
 insert into Patient_weight_status  (mse_check_eval_wt_average, mse_check_eval_wt_overweight, mse_check_eval_wt_obese, mse_check_eval_underweight, ACN) values (1, 0, 0, 0, 05699724843);
 
+

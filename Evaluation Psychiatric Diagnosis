@@ -44,3 +44,4 @@ insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, AC
 insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, ACN) values ('Diabetes due to underlying condition w hyprosm w coma', 'Mixed anxiety and depressive disorder', 74370793028);
 insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, ACN) values ('Transient synovitis, left elbow', 'Paranoid personality disorder', 90140095798);
 insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, ACN) values ('Displ transverse fx shaft of r fibula, 7thG', 'Bipolar affective disorder, current episode manic with psychotic symptoms', 05699724843);
+

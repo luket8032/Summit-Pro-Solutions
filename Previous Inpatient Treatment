@@ -46,3 +46,4 @@ insert into Previous_inpatient_treatment (pph_prev_inpatient_treatment, pph_chec
 insert into Previous_inpatient_treatment (pph_prev_inpatient_treatment, pph_check_prev_inpatient_treatment_none, pph_check_prev_inpatient_treatment_dna, ACN) values ('Peak Behavioral Health Services', 0, 0, 90140095798);
 insert into Previous_inpatient_treatment (pph_prev_inpatient_treatment, pph_check_prev_inpatient_treatment_none, pph_check_prev_inpatient_treatment_dna, ACN) values ('UNM Psychiatric Center', 0, 0, 05699724843);
 
+

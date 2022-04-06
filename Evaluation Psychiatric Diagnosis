@@ -7,7 +7,7 @@ CREATE TABLE Evaluation_psychiatric_diagnosis (
 insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, ACN) values ('Other chondrocalcinosis, ankle and foot', 'Paranoid personality disorder', 53847123888);
 insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, ACN) values ('Poisoning by unspecified narcotics, assault', 'Overeating associated with other psychological disturbances', 53239821780);
 insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, ACN) values ('Noninflammatory disorder of uterus, unspecified', 'Bipolar affective disorder, current episode manic without psychotic symptoms', 49498809929);
-insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, ACN) values ('Disorders of optic nerve, not elsewhere classified', 'Mixed anxiety and depressive disorder', 80829362529);
+insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, ACN) values ('Bariatric surgery status comp pregnancy, third trimester', 'Mixed anxiety and depressive disorder', 80829362529);
 insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, ACN) values ('Unspecified injury of body of pancreas', 'Depression', '50662091342');
 insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, ACN) values ('Rheumatic chorea without heart involvement', 'Catatonic schizophrenia', 45293676173);
 insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, ACN) values ('Essential (primary) hypertension', 'Anthropophobia', 76056640986);

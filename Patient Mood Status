@@ -58,3 +58,4 @@ insert into Patient_mood_status (mse_check_eval_mood_tired, mse_check_eval_mood_
 insert into Patient_mood_status (mse_check_eval_mood_tired, mse_check_eval_mood_ok, mse_check_eval_mood_alright, mse_check_eval_mood_happy, mse_check_eval_mood_good, mse_check_eval_mood_sad, mse_check_eval_mood_mad, mse_check_eval_mood_bad, mse_check_eval_mood_desperate, mse_check_eval_mood_worried, mse_check_eval_mood_anxious, mse_check_eval_mood_angry, mse_opentxt_eval_mood_other, mse_check_eval_mood_patient_dna, ACN) values (0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, NULL, 0, 05699724843);
 
 
+

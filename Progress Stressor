@@ -60,3 +60,5 @@ insert into Progress_Stressor (strs_check_pn_problems_support, strs_check_pn_hou
 insert into Progress_Stressor (strs_check_pn_problems_support, strs_check_pn_housing_problems, strs_check_pn_healthcare_problems, strs_check_pn_bullying, strs_check_pn_environment_problems, strs_check_pn_economic_problems, strs_check_pn_family_conflict, strs_check_pn_legal_problems, strs_check_pn_occupational_problems, strs_check_pn_educational_problems, strs_check_pn_social_peer_problems, strs_check_pn_other_problems, progress_note_date, ACN) values (1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, NULL, '06/23/2019', 49498809929);
 insert into Progress_Stressor (strs_check_pn_problems_support, strs_check_pn_housing_problems, strs_check_pn_healthcare_problems, strs_check_pn_bullying, strs_check_pn_environment_problems, strs_check_pn_economic_problems, strs_check_pn_family_conflict, strs_check_pn_legal_problems, strs_check_pn_occupational_problems, strs_check_pn_educational_problems, strs_check_pn_social_peer_problems, strs_check_pn_other_problems, progress_note_date, ACN) values (0, 1, 0, 0, 1, 1, 0, 0, 0, 0, 0, NULL, '08/06/2021', 80829362529);
 
+
+

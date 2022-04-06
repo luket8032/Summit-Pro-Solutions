@@ -47,3 +47,4 @@ insert into Family_history_of_coronary_artery_disease (fhp_cad_qty, fhp_cad_fami
 insert into Family_history_of_coronary_artery_disease (fhp_cad_qty, fhp_cad_family_member, fhp_check_cad_none, fhp_check_cad_patient_dna, ACN) values (3, 'Uncle and Grandparents', 0, 0, 90140095798);
 insert into Family_history_of_coronary_artery_disease (fhp_cad_qty, fhp_cad_family_member, fhp_check_cad_none, fhp_check_cad_patient_dna, ACN) values (2, 'Grandparents', 0, 0, 05699724843);
 
+

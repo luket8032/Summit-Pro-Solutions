@@ -49,4 +49,3 @@ INSERT INTO DischargeSummaryPatientInfo(ACN,dcs_patient_mrn,dcs_patient_firstnam
 INSERT INTO DischargeSummaryPatientInfo(ACN,dcs_patient_mrn,dcs_patient_firstname,dcs_patient_lastname,dcs_patient_DOB,dcs_patient_admission_date,dcs_date_of_discharge) values (74370793028, 865470, 'Pearce', 'Kiss','8/4/2005','04/09/2020''04/09/2020');
 INSERT INTO DischargeSummaryPatientInfo(ACN,dcs_patient_mrn,dcs_patient_firstname,dcs_patient_lastname,dcs_patient_DOB,dcs_patient_admission_date,dcs_date_of_discharge) values (90140095798, 278589, 'Ailis', 'Netley','11/9/2004','04/30/2021''04/30/2021');
 INSERT INTO DischargeSummaryPatientInfo(ACN,dcs_patient_mrn,dcs_patient_firstname,dcs_patient_lastname,dcs_patient_DOB,dcs_patient_admission_date,dcs_date_of_discharge) values (05699724843, 810445, 'Odille', 'Kesby','8/5/2006','06/08/2021''06/08/2021');
-

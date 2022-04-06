@@ -52,3 +52,4 @@ insert into Psychiatric_review_of_mania  (prs_check_mania_grandiose, prs_check_m
 insert into Psychiatric_review_of_mania  (prs_check_mania_grandiose, prs_check_mania_need_sleep, prs_check_mania_talkative, prs_check_mania_racing_thoughts, prs_check_mania_highly_distractible, prs_check_mania_goal_activity, prs_check_mania_risky_behavior_emotion_handicapped, prs_check_mania_no_manic_symptoms, prs_check_mania_patient_notengaging, ACN) values (1, 1, 1, 0, 0, 1, 1, 0, 0, 90140095798);
 insert into Psychiatric_review_of_mania  (prs_check_mania_grandiose, prs_check_mania_need_sleep, prs_check_mania_talkative, prs_check_mania_racing_thoughts, prs_check_mania_highly_distractible, prs_check_mania_goal_activity, prs_check_mania_risky_behavior_emotion_handicapped, prs_check_mania_no_manic_symptoms, prs_check_mania_patient_notengaging, ACN) values (0, 0, 1, 1, 1, 0, 1, 0, 0, 05699724843);
 
+

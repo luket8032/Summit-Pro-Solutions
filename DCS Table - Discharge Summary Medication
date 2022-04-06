@@ -12,7 +12,7 @@ insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dos
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('OCTINOXATE', 'once a day', '45293676173');
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Dihydroergotamine Mesylate', 'once a day', 76056640986);
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Causticum', 'once a month', 41895268601);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 'once a day', 63057262696);
+insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, 'once a day', 63057262696);
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL,  55515315988);
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Fosphenytoin Sodium', 'every 8 hours', 89834143459);
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('OCTINOXATE', 'three times a day', 69719499750);

@@ -47,3 +47,4 @@ insert into Patient_allergy (allergy_diagnosis, allergy_check_diagnosis_none, al
 insert into Patient_allergy (allergy_diagnosis, allergy_check_diagnosis_none, allergy_check_diagnosis_dna, ACN) values ('Drug allergy', 0, 0, 05699724843);
 
 
+

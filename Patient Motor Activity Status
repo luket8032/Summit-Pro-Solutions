@@ -55,3 +55,4 @@ insert into Patient_motor_activity_status  (mse_check_eval_motor_normal, mse_che
 insert into Patient_motor_activity_status  (mse_check_eval_motor_normal, mse_check_eval_motor_restless, mse_check_eval_motor_hyperactive, mse_check_eval_motor_bizzare_gestures, mse_check_eval_motor_bizzare_mannerisms, mse_check_eval_motor_stereotypes, mse_check_eval_motor_posturing, mse_check_eval_motor_ties, mse_check_eval_motor_tremors, mse_check_eval_motor_psychomotor_agitation, mse_check_eval_motor_psychomotor_retardation, ACN) values (0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 05699724843);
 
 
+

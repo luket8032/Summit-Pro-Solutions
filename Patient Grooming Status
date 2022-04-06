@@ -47,3 +47,4 @@ insert into Patient_grooming_status (mse_check_eval_grm_well_cladded, mse_check_
 insert into Patient_grooming_status (mse_check_eval_grm_well_cladded, mse_check_eval_grm_clumsy, mse_check_eval_grm_good_eyecontact, mse_check_eval_grm_bad_eyecontact, ACN) values (1, 0, 0, 0, 90140095798);
 insert into Patient_grooming_status (mse_check_eval_grm_well_cladded, mse_check_eval_grm_clumsy, mse_check_eval_grm_good_eyecontact, mse_check_eval_grm_bad_eyecontact, ACN) values (1, 0, 1, 0, 05699724843);
 
+

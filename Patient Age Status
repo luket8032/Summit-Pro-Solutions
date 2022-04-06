@@ -47,3 +47,4 @@ insert into Patient_age_status (mse_check_eval_age_young, mse_check_eval_middle_
 insert into Patient_age_status (mse_check_eval_age_young, mse_check_eval_middle_aged, mse_check_eval_elderly, mse_check_eval_appears_stated_age, ACN) values (1, 0, 0, 0, 90140095798);
 insert into Patient_age_status (mse_check_eval_age_young, mse_check_eval_middle_aged, mse_check_eval_elderly, mse_check_eval_appears_stated_age, ACN) values (1, 0, 0, 0, 05699724843);
 
+

@@ -47,3 +47,4 @@ insert into Patient_recent_memory_status (mse_check_eval_recmem_5minrecall, mse_
 insert into Patient_recent_memory_status (mse_check_eval_recmem_5minrecall, mse_check_eval_recmem_6digit, mse_check_eval_recmem_age_approp, mse_check_eval_recmem_within_normal_limits, mse_check_eval_recmem_impaired, ACN) values (0, 1, 1, 0, 1, 74370793028);
 insert into Patient_recent_memory_status (mse_check_eval_recmem_5minrecall, mse_check_eval_recmem_6digit, mse_check_eval_recmem_age_approp, mse_check_eval_recmem_within_normal_limits, mse_check_eval_recmem_impaired, ACN) values (1, 0, 0, 0, 1, 90140095798);
 insert into Patient_recent_memory_status (mse_check_eval_recmem_5minrecall, mse_check_eval_recmem_6digit, mse_check_eval_recmem_age_approp, mse_check_eval_recmem_within_normal_limits, mse_check_eval_recmem_impaired, ACN) values (1, 1, 1, 1, 0, 05699724843);
+

@@ -45,3 +45,4 @@ insert into Previous_psychiatric_medication  (pph_prev_medication_psych, pph_che
 insert into Previous_psychiatric_medication  (pph_prev_medication_psych, pph_check_prev_medication_psych_none, pph_check_prev_medication_psych_dna, ACN) values (NULL, 1, 0, 74370793028);
 insert into Previous_psychiatric_medication  (pph_prev_medication_psych, pph_check_prev_medication_psych_none, pph_check_prev_medication_psych_dna, ACN) values (NULL, 1, 0, 90140095798);
 insert into Previous_psychiatric_medication  (pph_prev_medication_psych, pph_check_prev_medication_psych_none, pph_check_prev_medication_psych_dna, ACN) values ('Causticum', 0, 0, 05699724843);
+

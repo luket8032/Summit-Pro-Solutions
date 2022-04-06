@@ -46,3 +46,4 @@ insert into Previous_electrotherapy_treatment  (pph_prev_electrotherapy_treatmen
 insert into Previous_electrotherapy_treatment  (pph_prev_electrotherapy_treatment, pph_check_prev_electrotherapy_treatment_none, pph_check_prev_electrotherapy_treatment_dna, ACN) values ('UNM Psychiatric Center', 0, 0, 90140095798);
 insert into Previous_electrotherapy_treatment  (pph_prev_electrotherapy_treatment, pph_check_prev_electrotherapy_treatment_none, pph_check_prev_electrotherapy_treatment_dna, ACN) values ('New Mexico Behavioral Health', 0, 0, 05699724843);
 
+

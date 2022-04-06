@@ -46,3 +46,4 @@ insert into Patient_posture_status (mse_check_eval_posture_normal, mse_check_eva
 insert into Patient_posture_status (mse_check_eval_posture_normal, mse_check_eval_posture_stooped, mse_check_eval_posture_kyphosis, ACN) values (0, 1, 0, 90140095798);
 insert into Patient_posture_status (mse_check_eval_posture_normal, mse_check_eval_posture_stooped, mse_check_eval_posture_kyphosis, ACN) values (1, 0, 0, 05699724843);
 
+

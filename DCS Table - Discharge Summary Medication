@@ -44,3 +44,4 @@ insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dos
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 74370793028);
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('polymyxin B sulfate', 'once a day', 90140095798);
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 05699724843);
+

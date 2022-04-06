@@ -43,4 +43,3 @@ insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 08
 insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 74370793028);
 insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 90140095798);
 insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 05699724843);
-

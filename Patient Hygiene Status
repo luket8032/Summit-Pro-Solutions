@@ -46,3 +46,4 @@ insert into Patient_hygiene_status (ga_hygiene_kempt, ga_hygiene_unkempt, ga_hyg
 insert into Patient_hygiene_status (ga_hygiene_kempt, ga_hygiene_unkempt, ga_hygiene_malo, ACN) values (1, 0, 0, 90140095798);
 insert into Patient_hygiene_status (ga_hygiene_kempt, ga_hygiene_unkempt, ga_hygiene_malo, ACN) values (1, 0, 0, 05699724843);
 
+

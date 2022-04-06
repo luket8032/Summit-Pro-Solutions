@@ -52,3 +52,4 @@ insert into Patient_information (patient_mrn, patient_firstname, patient_lastnam
 insert into Patient_information (patient_mrn, patient_firstname, patient_lastname, patient_address, patient_city, patient_zip_code, patient_state_province, patient_gender, patient_pronoun, patient_dob) values (426307, 'Ailis', 'Netley', '266 Pawling Road', 'Las Cruces', '24778', 31, 'Male', 'she/her', '11/9/2004');
 insert into Patient_information (patient_mrn, patient_firstname, patient_lastname, patient_address, patient_city, patient_zip_code, patient_state_province, patient_gender, patient_pronoun, patient_dob) values (874691, 'Odille', 'Kesby', '0 Nelson Terrace', 'Las Cruces', '22096', 31, 'Polygender', 'they/them', '8/5/2006');
 
+

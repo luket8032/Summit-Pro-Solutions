@@ -48,3 +48,4 @@ insert into Patient_estimated_intelligence_status (mse_check_eval_estint_vocab, 
 insert into Patient_estimated_intelligence_status (mse_check_eval_estint_vocab, mse_check_eval_estint_education, mse_opentxt_eval_estint_other, mse_check_eval_estint_above_avg, mse_check_eval_estint_avg, mse_check_eval_estint_below_avg, ACN) values (0, 0, NULL, 0, 0, 1, 74370793028);
 insert into Patient_estimated_intelligence_status (mse_check_eval_estint_vocab, mse_check_eval_estint_education, mse_opentxt_eval_estint_other, mse_check_eval_estint_above_avg, mse_check_eval_estint_avg, mse_check_eval_estint_below_avg, ACN) values (1, 0, NULL, 0, 1, 0, 90140095798);
 insert into Patient_estimated_intelligence_status (mse_check_eval_estint_vocab, mse_check_eval_estint_education, mse_opentxt_eval_estint_other, mse_check_eval_estint_above_avg, mse_check_eval_estint_avg, mse_check_eval_estint_below_avg, ACN) values (0, 1, NULL, 0, 0, 1, 05699724843);
+

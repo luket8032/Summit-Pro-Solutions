@@ -47,3 +47,4 @@ insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_no
 insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values ('polymyxin B sulfate', 'once a day', 0, 0, 90140095798);
 insert into Current_medication (cm_medication, cm_dosage, cm_check_medication_none, cm_check_medication_dna, ACN) values (NULL, NULL, 0, 0, 05699724843);
 
+

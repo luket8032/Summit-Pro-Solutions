@@ -1,0 +1,5 @@
+ALTER TABLE Patient_information
+ADD PRIMARY KEY (patient_admission_location)
+
+ALTER TABLE ACN
+ADD FOREIGN KEY (patient_admission_location) REFERENCES Patient_information(patient_admission_location)

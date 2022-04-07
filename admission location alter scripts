@@ -1,0 +1,3 @@
+ALTER TABLE Patient_Information ADD PRIMARY KEY (patient_mrn, patient_admission_location, patient_admission_date)
+
+ALTER TABLE ACN ADD FOREIGN KEY (patient_mrn, patient_admission_location, patient_admission_date) REFERENCES Patient_Information (patient_mrn, patient_admission_location, patient_admission_date)

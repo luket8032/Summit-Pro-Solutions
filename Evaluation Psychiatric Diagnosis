@@ -46,3 +46,4 @@ insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, AC
 insert into Evaluation_psychiatric_diagnosis (dx_eval_medical, dx_eval_psych, ACN) values ('Congenital nonprogressive ataxia', 'Bipolar affective disorder, current episode manic with psychotic symptoms', 05699724843);
 
 
+

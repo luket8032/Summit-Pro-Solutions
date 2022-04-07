@@ -2,7 +2,7 @@ create table ACN (
 	ACN BIGINT NOT NULL,
 	patient_mrn INT NOT NULL,
 	acn_patient_admission_date DATE NOT NULL,
-	patient_admission_location VARCHAR(50) NOT NULL
+	acn_patient_admission_location VARCHAR(50) NOT NULL
 	)
  
 INSERT INTO ACN (ACN, patient_mrn, acn_patient_admission_date, patient_admission_location) VALUES (53847123888, 392337, '02/26/2022', 'Vidavalor Behavioral Health'); 

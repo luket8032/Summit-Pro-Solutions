@@ -7,7 +7,7 @@ ACN bigint NOT NULL
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Diphenhydramine HCl', 'once a week', 53847123888);
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Phenobarbital', 'once a month', 53239821780);
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 49498809929);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Ofloxacin', 'every 12 hours',  80829362529);
+insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Lamotrigine, valproate', 'once a week', 80829362529);
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Hydralazine Hydrochloride', 'once a week', 50662091342);
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('OCTINOXATE', 'once a day', '45293676173');
 insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Dihydroergotamine Mesylate', 'once a day', 76056640986);

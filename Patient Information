@@ -1,7 +1,7 @@
 CREATE TABLE Patient_Information (
-	patient_mrn INT,
-	patient_admission_date DATE,
-	patient_admission_location VARCHAR(100),
+	patient_mrn INT NOT NULL,
+	patient_admission_date DATE NOT NULL,
+	patient_admission_location VARCHAR(100) NOT NULL,
 	patient_firstname VARCHAR(50),
 	patient_lastname VARCHAR(50),
 	patient_addressline1 VARCHAR(100),

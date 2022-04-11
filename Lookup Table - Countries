@@ -194,7 +194,7 @@ INSERT INTO Countries VALUES (184,'Saint Barthelemy');
 INSERT INTO Countries VALUES (185,'Saint Helena');
 INSERT INTO Countries VALUES (186,'Saint Kitts and Nevis');
 INSERT INTO Countries VALUES (187,'Saint Lucia');
-INSERT INTO Countries VALUES(188,'Saint Martin');
+INSERT INTO Countries VALUES (188,'Saint Martin');
 INSERT INTO Countries VALUES (189,'Saint Pierre and Miquelon');
 INSERT INTO Countries VALUES (190,'Saint Vincent and the Grenadines');
 INSERT INTO Countries VALUES (191,'Samoa');

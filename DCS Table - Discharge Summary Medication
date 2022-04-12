@@ -1,47 +1,46 @@
 CREATE TABLE DischargeSummaryMedication(
 dcs_cm_medication varchar(1000),
-dcs_cm_medication_dosage varchar(1000),
+medication_rx_idcode INT,
 ACN bigint NOT NULL
 );
 
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Diphenhydramine HCl', 'once a week', 53847123888);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Phenobarbital', 'once a month', 53239821780);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 49498809929);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Lamotrigine, Valproate, Escitalopram, Brinzolamide', 'once a week', 80829362529);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Hydralazine Hydrochloride', 'once a week', 50662091342);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('OCTINOXATE', 'once a day', '45293676173');
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Dihydroergotamine Mesylate', 'once a day', 76056640986);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Causticum', 'once a month', 41895268601);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 63057262696);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL,  55515315988);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Fosphenytoin Sodium', 'every 8 hours', 89834143459);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('OCTINOXATE', 'three times a day', 69719499750);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Glipizide', 'every 12 hours', 45129431988);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('ATRACTYLODES JAPONICA ROOT OIL', 'once a day', 73373085843);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Thymus Mercurius', 'once a week', 40895957518);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 96102361618);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Diphenhydramine HCl', 'once a week', 67406231076);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Fluoxetine', 'once a week', 70400507649);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Loperamide Hydrochloride', 'once a day', 88514553439);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 74649674998);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('ATRACTYLODES JAPONICA ROOT OIL', 'once a month', 71297297573);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 65541665839);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Titanium Dioxide', 'once a month', 47690387353);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 48119830340);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Triclosan', 'once a month', 91885989859);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Fosphenytoin Sodium', 'once a month', 31179873541);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Salicylic Acid', 'every 8 hours',  33144119346);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Anti Itch Cream', 'once a month', 32898264888);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('polymyxin B sulfate', 'once a month', 62232077150);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Phenobarbital', 'every 8 hours', 32240110223);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Anti Itch Cream', 'once a day', 41052277807);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Triclosan', 'once a month', 62410446126);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Azelastine Hydrochloride', 'once a day', 38867183592);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 78466739510);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Triclosan', 'every 8 hours', 41930101396);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Titanium Dioxide', 'twice a day', 44840351499);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('Nedocromil Sodium', 'every 8 hours', 08945528068);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 74370793028);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values ('polymyxin B sulfate', 'once a day', 90140095798);
-insert into DischargeSummaryMedication (dcs_cm_medication, dcs_cm_medication_dosage, ACN) values (NULL, NULL, 05699724843);
-
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Diphenhydramine HCl', 6, 53847123888);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Phenobarbital', 7, 53239821780);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values (NULL, NULL, 49498809929);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Lamotrigine, Valproate, Escitalopram, Brinzolamide', 6, 80829362529);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Hydralazine Hydrochloride', 6, 50662091342);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('OCTINOXATE', 1, '45293676173');
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Dihydroergotamine Mesylate', 1, 76056640986);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Causticum', 7, 41895268601);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values (NULL, NULL, 63057262696);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values (NULL, NULL, 55515315988);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Fosphenytoin Sodium', 4, 89834143459);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('OCTINOXATE', 3, 69719499750);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Glipizide', 5, 45129431988);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('ATRACTYLODES JAPONICA ROOT OIL', 1, 73373085843);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Thymus Mercurius', 6, 40895957518);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values (NULL, NULL, 96102361618);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Diphenhydramine HCl', 6, 67406231076);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Fluoxetine', 6, 70400507649);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Loperamide Hydrochloride', 1, 88514553439);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values (NULL, NULL, 74649674998);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('ATRACTYLODES JAPONICA ROOT OIL', 7, 71297297573);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values (NULL, NULL, 65541665839);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Titanium Dioxide', 7, 47690387353);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values (NULL, NULL, 48119830340);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Triclosan', 7, 91885989859);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Fosphenytoin Sodium', 7, 31179873541);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Salicylic Acid', 4,  33144119346);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Anti Itch Cream', 7, 32898264888);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('polymyxin B sulfate', 7, 62232077150);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Phenobarbital', 4, 32240110223);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Anti Itch Cream', 1, 41052277807);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Triclosan', 7, 62410446126);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Azelastine Hydrochloride', 1, 38867183592);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values (NULL, NULL, 78466739510);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Triclosan', 4, 41930101396);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Titanium Dioxide', 2, 44840351499);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('Nedocromil Sodium', 4, 08945528068);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values (NULL, NULL, 74370793028);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('polymyxin B sulfate', 1, 90140095798);
+insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values (NULL, NULL, 05699724843);

@@ -3,3 +3,11 @@ medication_rx_idcode INT NOT NULL,
 medication_rx_name VARCHAR(50) NOT NULL, 
 PRIMARY KEY (medication_rx_idcode),
 );
+
+INSERT INTO Medication_Dosage_Frequency_List VALUES (1, 'once a day');
+INSERT INTO Medication_Dosage_Frequency_List VALUES (2, 'twice a day');
+INSERT INTO Medication_Dosage_Frequency_List VALUES (3, 'three times a day');
+INSERT INTO Medication_Dosage_Frequency_List VALUES (4, 'every 8 hours');
+INSERT INTO Medication_Dosage_Frequency_List VALUES (5, 'every 12 hours');
+INSERT INTO Medication_Dosage_Frequency_List VALUES (6, 'once a week');
+INSERT INTO Medication_Dosage_Frequency_List VALUES (7, 'once a month');

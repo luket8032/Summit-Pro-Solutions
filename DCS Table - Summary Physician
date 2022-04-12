@@ -1,45 +1,45 @@
-CREATE TABLE SummaryPhysician(
-physician_name varchar(50),
-ACN bigint NOT NULL
+CREATE TABLE DischargeSummaryPhysician(
+physician_name_idcode INT NOT NULL,
+ACN BIGINT NOT NULL
 );
 
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 53847123888);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 53239821780);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 49498809929);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 80829362529);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 50662091342);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 45293676173);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 76056640986);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 41895268601);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 63057262696);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 55515315988);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 89834143459);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 69719499750);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 45129431988);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 73373085843);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 40895957518);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 96102361618);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 67406231076);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 70400507649);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 88514553439);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 74649674998);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 71297297573);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 65541665839);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 47690387353);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 48119830340);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 91885989859);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 31179873541);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 33144119346);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 32898264888);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 62232077150);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 32240110223);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 41052277807);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 62410446126);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 38867183592);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 78466739510);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 41930101396);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 44840351499);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 08945528068);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 74370793028);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 90140095798);
-insert into SummaryPhysician (physician_name, ACN) values ('Danish Haque MD', 05699724843);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 53847123888);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 53239821780);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 49498809929);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 80829362529);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 50662091342);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 45293676173);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 76056640986);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 41895268601);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 63057262696);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 55515315988);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 89834143459);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 69719499750);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 45129431988);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 73373085843);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 40895957518);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 96102361618);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 67406231076);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 70400507649);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 88514553439);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 74649674998);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 71297297573);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 65541665839);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 47690387353);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 48119830340);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 91885989859);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 31179873541);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 33144119346);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 32898264888);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 62232077150);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 32240110223);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 41052277807);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 62410446126);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 38867183592);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 78466739510);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 41930101396);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 44840351499);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 08945528068);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 74370793028);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 90140095798);
+insert into DischargeSummaryPhysician (physician_name_idcode, ACN) values (1, 05699724843);

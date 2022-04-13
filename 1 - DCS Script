@@ -11,7 +11,7 @@ b.dcs_reason_deterioration AS 'Deterioration',
 b.dcs_reason_inability AS 'Inability',
 b.dcs_reason_other_danger AS 'Other Danger',
 b.dcs_reason_psychosis AS 'Psychosis',
-b.dcs_reason_dependency AS 'Dependancy',
+b.dcs_reason_dependency AS 'Dependency',
 c.dcs_cm_medication AS 'Discharge Medication',
 c.dcs_cm_medication_dosage AS 'Dosage',
 d.physician_name AS 'Physician Name',
@@ -30,7 +30,7 @@ f.dcs_check_anx_anxious AS 'Anxious',
 f.dcs_check_anx_restless AS 'Restless',
 f.dcs_check_anx_fatigue AS 'Fatigue',
 f.dcs_check_anx_low_concentration AS 'Low Concentration',
-f.dcs_check_anx_irratible AS 'Irratable',
+f.dcs_check_anx_irratible AS 'Irritable',
 f.dcs_check_anx_muscle_tension AS 'Muscle Tension',
 f.dcs_check_anx_sleep_problems AS 'Sleep Problems',
 f.dcs_check_anx_social_anxiety AS 'Social Anxiety',
@@ -51,16 +51,16 @@ h.dcs_check_mania_grandiose AS 'Grandiose',
 h.dcs_check_mania_need_sleep AS 'Needs Sleep',
 h.dcs_check_mania_talkative AS 'Talkative',
 h.dcs_check_mania_racing_thoughts AS 'Racing Thoughts',
-h.dcs_check_mania_highly_distractible AS 'Highlt Distractbale',
+h.dcs_check_mania_highly_distractible AS 'Highly Distractable',
 h.dcs_check_mania_goal_activity AS 'Goal Activity',
-h.dcs_check_mania_risky_behavior_emotion_handicapped AS 'Emotionaly Handicapped',
+h.dcs_check_mania_risky_behavior_emotion_handicapped AS 'Emotionally Handicapped',
 h.dcs_check_mania_no_manic_symptoms AS 'No Manic Symptoms',
 h.dcs_check_mania_patient_notengaging AS 'Not Engaging',
 i.dcs_check_safety_suicidal_ideation AS "Suicidal Ideation",
 i.dcs_check_safety_suicidal_intent AS 'Suicidal Intent',
 i.dcs_check_safety_suicidal_plan AS 'Suicidal Plan',
 i.dcs_check_safety_homicidal_ideation AS 'Homicidal Ideation',
-i.dcs_check_safety_auditory_hallucinations AS 'Audiroty Hallucinations',
+i.dcs_check_safety_auditory_hallucinations AS 'Auditory Hallucinations',
 i.dcs_check_safety_visual_hallucinations AS 'Visual Hallucinations',
 i.dcs_check_safety_no_suicidal_intent AS 'No Suicidal Intent',
 i.dcs_check_safety_no_harm_intent AS 'No Harmful Intent',
@@ -70,7 +70,7 @@ i.dcs_check_safety_no_auditory_hallucinations AS 'No Auditory Hallucinations',
 i.dcs_check_safety_no_visual_hallucinations AS 'No Visual Hallucinations',
 j.dcs_check_disrup_severe_verbal AS 'Vernal Abuse',
 j.dcs_check_disrup_severe_tantrum AS 'Severe Tantrum',
-j.dcs_check_disrup_persistent_irratible AS 'Irratible',
+j.dcs_check_disrup_persistent_irratible AS 'Irritable',
 j.dcs_check_disrup_defiance AS 'Defiant',
 j.dcs_check_disrup_cruelty AS 'Cruel',
 j.dcs_check_disrup_destroy_property AS 'Destroys Property',
@@ -87,7 +87,7 @@ k.dcs_check_attnt_fidgeting AS 'Fidgeting',
 k.dcs_check_attnt_not_seated AS 'Not Seated',
 k.dcs_check_attnt_loud AS 'Loud',
 k.dcs_check_attnt_talkative AS 'Talkative',
-k.dcs_check_attnt_interuptive AS 'Interuptive',
+k.dcs_check_attnt_interuptive AS 'Interruptive',
 k.dcs_check_attnt_no_adhd_symptoms AS 'No ADHD symptoms',
 k.dcs_check_attnt_patient_notengaging AS 'Not Engaging',
 l.dcs_HPI_entry AS 'HPI Entry',
@@ -105,14 +105,14 @@ p.dcs_check_eval_problems_support AS 'Support Problems',
 p.dcs_check_eval_housing_problems AS 'Housing Problems',
 p.dcs_check_eval_healthcare_problems AS 'Healthcare Problems',
 p.dcs_check_eval_bullying AS 'Bullying',
-p.dcs_check_eval_environment_problems AS 'Enviromental Bullying',
+p.dcs_check_eval_environment_problems AS 'Environmental Problems',
 p.dcs_check_eval_economic_problems AS 'Economic Problems',
 p.dcs_check_eval_family_conflict AS 'Conflict in Family',
 p.dcs_check_eval_legal_problems AS 'Legal Problems',
 p.dcs_check_eval_occupational_problems AS 'Occupational Problems',
 p.dcs_check_eval_educational_problems AS 'Educational Problems',
 p.dcs_check_eval_social_peer_problems AS 'Peer Pressure',
-p.dcs_check_opentxt_eval_other_problems AS 'Other Stressors' ,
+p.dcs_check_opentxt_eval_other_problems AS 'Other Stressors',
 q.dcs_dischplan_abscence_suicidal_intent AS 'Absence of Suicidal Intent',
 q.dcs_dischplan_aftercare_arrangement AS 'Aftercare Arrangement',
 q.dcs_dischplan_lesser_level_care AS 'Lesser Level Care',
@@ -120,7 +120,7 @@ q.dcs_dischplan_inc_ability_selfcare AS 'Selfcare Ability',
 q.dcs_dischplan_check_eval_improved_mood AS 'Improved Mood',
 q.dcs_dischplan_stable_medication AS 'Stable Medication',
 q.dcs_dischplan_opentxt_other AS 'Notes',
-q.dcs_dischplan_opentxt_needed_living_arragement AS 'Liviong Arrangements'
+q.dcs_dischplan_opentxt_needed_living_arragement AS 'Living Arrangements'
 FROM DischargeSummaryPatientInfo as a 
 INNER JOIN DischargeSummaryAdmissionReason as b
 ON a.ACN = b.ACN
@@ -144,13 +144,13 @@ INNER JOIN DischargeSummaryAttention as k
 ON a.ACN = k.ACN
 INNER JOIN DischargeSummaryHPI as l
 ON a.ACN = l.ACN
-INNER JOIN DischargeSummaryMSERecommendations as m
+INNER JOIN DischargeSummaryMSERecommendation as m
 ON a.ACN = m.ACN
-INNER JOIN DischargeSummaryDischargeLocations as n
+INNER JOIN DischargeSummaryDischargeLocation as n
 ON a.ACN = n.ACN
 INNER JOIN DischargeSummaryDiagnosis as o
 ON a.ACN = o.ACN
-INNER JOIN DischargeSummaryStressors as p
+INNER JOIN DischargeSummaryStressor as p
 ON a.ACN = p.ACN
 INNER JOIN DischargeSummaryDischargePlan as q
 ON a.ACN = q.ACN

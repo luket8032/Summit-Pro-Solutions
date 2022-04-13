@@ -1,0 +1,4 @@
+ALTER TABLE Medication_Dosage_Frequency_List ADD PRIMARY KEY (medication_rx_idcode)
+
+ALTER TABLE Current_medication ADD FOREIGN KEY (medication_rx_idcode) REFERENCES Medication_Dosage_Frequency_List (medication_rx_idcode)
+ALTER TABLE DischargeSummaryMedication ADD FOREIGN KEY (medication_rx_idcode) REFERENCES Medication_Dosage_Frequency_List (medication_rx_idcode)

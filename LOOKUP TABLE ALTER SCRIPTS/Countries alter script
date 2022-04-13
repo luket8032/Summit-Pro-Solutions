@@ -1,0 +1,4 @@
+ALTER TABLE Countries ADD PRIMARY KEY (countryID)
+
+ALTER TABLE Patient_Information ADD FOREIGN KEY (countryID) REFERENCES Countries (countryID)
+

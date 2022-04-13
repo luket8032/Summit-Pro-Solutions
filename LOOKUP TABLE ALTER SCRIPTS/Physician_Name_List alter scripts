@@ -1,0 +1,8 @@
+ALTER TABLE Physician_Name_List
+ADD PRIMARY KEY (physician_name_idcode)
+
+ALTER TABLE Evaluation_discharge_plan 
+ADD FOREIGN KEY (physician_name_idcode) REFERENCES Physician_Name_List(physician_name_idcode)
+
+ALTER TABLE DischargeSummaryPhysician
+ADD FOREIGN KEY (physician_name_idcode) REFERENCES Physician_Name_List(physician_name_idcode)

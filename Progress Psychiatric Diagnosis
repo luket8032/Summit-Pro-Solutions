@@ -52,4 +52,3 @@ insert into Progress_Psychiatric_Diagnosis (dx_pn_check_any_changes_in_dx, dx_pn
 insert into Progress_Psychiatric_Diagnosis (dx_pn_check_any_changes_in_dx, dx_pn_medical, dx_pn_psych, progress_note_date, ACN) values (1, 'Bariatric surgery status comp pregnancy, third trimester', 'Recurrent depressive disorder, current episode severe with psychotic symptoms', '08/06/2021', 80829362529);
 
 
-

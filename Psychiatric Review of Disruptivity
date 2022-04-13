@@ -53,4 +53,3 @@ insert into Psychiatric_review_of_disruptivity  (prs_check_disrup_severe_verbal,
 insert into Psychiatric_review_of_disruptivity  (prs_check_disrup_severe_verbal, prs_check_disrup_severe_tantrum, prs_check_disrup_persistent_irratible, prs_check_disrup_defiance, prs_check_disrup_cruelty, prs_check_disrup_destroy_property, prs_check_disrup_theft, prs_check_disrup_lack_remorse, prs_check_disrup_no_dmdd_symptoms, prs_check_disrup_patient_notengaging, ACN) values (0, 1, 0, 1, 1, 0, 0, 1, 1, 1, 90140095798);
 insert into Psychiatric_review_of_disruptivity  (prs_check_disrup_severe_verbal, prs_check_disrup_severe_tantrum, prs_check_disrup_persistent_irratible, prs_check_disrup_defiance, prs_check_disrup_cruelty, prs_check_disrup_destroy_property, prs_check_disrup_theft, prs_check_disrup_lack_remorse, prs_check_disrup_no_dmdd_symptoms, prs_check_disrup_patient_notengaging, ACN) values (1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 05699724843);
 
-

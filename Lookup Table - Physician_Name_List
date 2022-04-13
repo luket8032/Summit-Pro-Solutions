@@ -1,6 +1,6 @@
 CREATE TABLE Physician_Name_List(
-physician_name__idcode INT NOT NULL,
+physician_name_idcode INT NOT NULL,
 physician_name VARCHAR(50) NOT NULL, 
 );
 
-INSERT INTO Physician_Name_List (physician_name__idcode, physician_name) VALUES (1, 'Danish Haque MD'); 
+INSERT INTO Physician_Name_List (physician_name_idcode, physician_name) VALUES (1, 'Danish Haque MD'); 

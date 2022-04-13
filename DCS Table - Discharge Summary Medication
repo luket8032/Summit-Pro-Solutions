@@ -44,3 +44,4 @@ insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode,
 insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values (NULL, NULL, 74370793028);
 insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values ('polymyxin B sulfate', 1, 90140095798);
 insert into DischargeSummaryMedication (dcs_cm_medication, medication_rx_idcode, ACN) values (NULL, NULL, 05699724843);
+

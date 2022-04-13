@@ -45,3 +45,4 @@ insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values
 insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Transient synovitis, left elbow', 'Psychological illness', 90140095798);
 insert into DischargeSummaryDiagnosis (dcs_dx_medical, dcs_dx_psych, ACN) values ('Congenital nonprogressive ataxia', 'Bipolar', 05699724843);
 
+

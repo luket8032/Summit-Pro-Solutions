@@ -49,3 +49,4 @@ insert into DischargeSummaryAdmissionReason (dcs_reason_self_danger, dcs_reason_
 insert into DischargeSummaryAdmissionReason (dcs_reason_self_danger, dcs_reason_deterioration, dcs_reason_inability, dcs_reason_psychosis, dcs_reason_dependency, ACN) values (0, 1, 0, 0, 0, 90140095798);
 insert into DischargeSummaryAdmissionReason (dcs_reason_self_danger, dcs_reason_deterioration, dcs_reason_inability, dcs_reason_psychosis, dcs_reason_dependency, ACN) values (0, 1, 0, 0, 0, 05699724843);
 
+

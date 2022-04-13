@@ -7,20 +7,20 @@ CREATE TABLE Progress_Patient_hygiene_status (
 )
 
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '02/26/2022', 53847123888);
-insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (0, 1, 0, '08/22/2022', 53239821780);
-insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '06/22/2022', 49498809929);
+insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (0, 1, 0, '02/22/2022', 53239821780);
+insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '01/22/2022', 49498809929);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '08/05/2021', 80829362529);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '10/10/2021', 50662091342);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (0, 0, 1, '04/11/2022', 45293676173);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '07/28/2019', 76056640986);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '12/25/2022', 41895268601);
-insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '06/13/2022', 63057262696);
+insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '03/13/2022', 63057262696);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '01/03/2022', 55515315988);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '01/06/2022', 89834143459);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (0, 1, 0, '07/27/2021', 69719499750);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '11/19/2019', 45129431988);
-insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (0, 1, 0, '10/03/2022', 73373085843);
-insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (0, 0, 1, '05/16/2022', 40895957518);
+insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (0, 1, 0, '10/03/2021', 73373085843);
+insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (0, 0, 1, '02/16/2021', 40895957518);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (0, 1, 0, '02/04/2022', 96102361618);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '11/07/2021', 67406231076);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '08/02/2021', 70400507649);
@@ -47,6 +47,6 @@ insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkemp
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '04/30/2021', 90140095798);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '06/08/2021', 05699724843);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '02/27/2022', 53847123888);
-insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '08/23/2022', 53239821780);
-insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '06/23/2022', 49498809929);
+insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '02/23/2022', 53239821780);
+insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '01/23/2022', 49498809929);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '08/06/2021', 80829362529);

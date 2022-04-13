@@ -1,0 +1,3 @@
+ALTER TABLE State ADD PRIMARY KEY (stateID)
+
+ALTER TABLE Patient_Information ADD FOREIGN KEY (stateID) REFERENCES State (stateID)

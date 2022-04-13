@@ -45,7 +45,10 @@ insert into ACN (ACN, acn_patient_mrn, acn_patient_admission_date, acn_patient_a
 insert into ACN (ACN, acn_patient_mrn, acn_patient_admission_date, acn_patient_admission_location) VALUES (74370793028, 183993, '04/09/2020', 'Vidavalor Behavioral Health');
 insert into ACN (ACN, acn_patient_mrn, acn_patient_admission_date, acn_patient_admission_location) VALUES (90140095798, 426307, '04/30/2021', 'Vidavalor Behavioral Health');
 insert into ACN (ACN, acn_patient_mrn, acn_patient_admission_date, acn_patient_admission_location) VALUES (05699724843, 874691, '06/08/2021', 'Vidavalor Behavioral Health');
-
+INSERT INTO ACN (ACN, acn_patient_mrn, acn_patient_admission_date, acn_patient_admission_location) VALUES (53847123888, 392337, '02/27/2022', 'Vidavalor Behavioral Health'); 
+INSERT INTO ACN (ACN, acn_patient_mrn, acn_patient_admission_date, acn_patient_admission_location) VALUES (53239821780, 820720, '02/23/2022', 'Vidavalor Behavioral Health'); 
+INSERT INTO ACN (ACN, acn_patient_mrn, acn_patient_admission_date, acn_patient_admission_location) VALUES (49498809929, 354367, '01/23/2022', 'Vidavalor Behavioral Health');
+INSERT INTO ACN (ACN, acn_patient_mrn, acn_patient_admission_date, acn_patient_admission_location) VALUES (80829362529, 359538, '08/06/2021', 'Vidavalor Behavioral Health');
 
 
 

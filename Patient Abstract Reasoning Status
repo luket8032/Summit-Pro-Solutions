@@ -48,3 +48,4 @@ insert into Patient_abstract_reasoning_status (mse_check_eval_abstract_similarit
 insert into Patient_abstract_reasoning_status (mse_check_eval_abstract_similarities, mse_check_eval_abstract_proverbs, mse_opentxt_eval_abstract_other, mse_check_eval_abstract_within_normal_limits, mse_check_eval_abstract_impaired, ACN) values (0, 1, NULL, 0, 0, 90140095798);
 insert into Patient_abstract_reasoning_status (mse_check_eval_abstract_similarities, mse_check_eval_abstract_proverbs, mse_opentxt_eval_abstract_other, mse_check_eval_abstract_within_normal_limits, mse_check_eval_abstract_impaired, ACN) values (1, 1, NULL, 0, 1, 05699724843);
 
+

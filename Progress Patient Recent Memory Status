@@ -52,3 +52,4 @@ insert into Progress_Patient_Recent_Memory_Status (mse_check_pn_recmem_5minrecal
 insert into Progress_Patient_Recent_Memory_Status (mse_check_pn_recmem_5minrecall, mse_check_pn_recmem_6digit, mse_check_pn_recmem_age_approp, mse_check_pn_recmem_within_normal_limits, mse_check_pn_recmem_impaired, progress_note_date, ACN) values (1, 1, 1, 1, 0, '02/23/2022', 53239821780);
 insert into Progress_Patient_Recent_Memory_Status (mse_check_pn_recmem_5minrecall, mse_check_pn_recmem_6digit, mse_check_pn_recmem_age_approp, mse_check_pn_recmem_within_normal_limits, mse_check_pn_recmem_impaired, progress_note_date, ACN) values (1, 1, 1, 1, 0, '01/23/2022', 49498809929);
 insert into Progress_Patient_Recent_Memory_Status (mse_check_pn_recmem_5minrecall, mse_check_pn_recmem_6digit, mse_check_pn_recmem_age_approp, mse_check_pn_recmem_within_normal_limits, mse_check_pn_recmem_impaired, progress_note_date, ACN) values (0, 0, 0, 0, 1, '08/06/2021', 80829362529);
+

@@ -1,0 +1,9 @@
+ALTER TABLE Patient_information ADD PRIMARY KEY (patient_mrn)
+
+ALTER TABLE ACN ADD PRIMARY KEY (ACN)
+
+ALTER TABLE ACN
+ADD FOREIGN KEY (acn_patient_mrn) 
+REFERENCES Patient_information(patient_mrn) 
+ON DELETE CASCADE
+ON UPDATE CASCADE;

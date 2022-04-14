@@ -99,3 +99,4 @@ INSERT INTO State (stateID, stateName) VALUES (93, 'Mexico - Veracruz');
 INSERT INTO State (stateID, stateName) VALUES (94, 'Mexico - Yucatán');
 INSERT INTO State (stateID, stateName) VALUES (95, 'Mexico - Zacatecas');
 INSERT INTO State (stateID, stateName) VALUES (96, 'Armed Forces Europe');
+

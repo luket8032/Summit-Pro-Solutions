@@ -52,3 +52,4 @@ insert into Progress_Patient_Age_Status (mse_check_pn_age_young, mse_check_pn_ag
 insert into Progress_Patient_Age_Status (mse_check_pn_age_young, mse_check_pn_age_middle_aged, mse_check_pn_age_elderly, mse_check_pn_age_appears_stated_age, progress_note_date, acn) values (0, 0, 0, 1, '02/23/2022', 53239821780);
 insert into Progress_Patient_Age_Status (mse_check_pn_age_young, mse_check_pn_age_middle_aged, mse_check_pn_age_elderly, mse_check_pn_age_appears_stated_age, progress_note_date, acn) values (0, 0, 0, 1, '01/23/2022', 49498809929);
 insert into Progress_Patient_Age_Status (mse_check_pn_age_young, mse_check_pn_age_middle_aged, mse_check_pn_age_elderly, mse_check_pn_age_appears_stated_age, progress_note_date, acn) values (0, 0, 0, 1, '08/06/2021', 80829362529);
+

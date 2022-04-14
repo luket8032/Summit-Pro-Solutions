@@ -48,3 +48,4 @@ insert into Current_medication (cm_medication, medication_rx_idcode, cm_check_me
 insert into Current_medication (cm_medication, medication_rx_idcode, cm_check_medication_none, cm_check_medication_dna, ACN) values (NULL, NULL, 0, 0, 05699724843);
 
 
+

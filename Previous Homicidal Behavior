@@ -46,3 +46,4 @@ insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_p
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 1, 0, 90140095798);
 insert into Previous_homicidal_behavior  (pph_prev_homicide_symptom, pph_check_prev_homicide_none, pph_check_prev_homicide_dna, ACN) values (NULL, 0, 1, 05699724843);
 
+

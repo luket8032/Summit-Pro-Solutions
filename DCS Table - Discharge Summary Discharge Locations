@@ -44,3 +44,4 @@ insert into DischargeSummaryDischargeLocation (dcs_disch_loc_name, ACN) values (
 insert into DischargeSummaryDischargeLocation (dcs_disch_loc_name, ACN) values ('Presbyterian Inpatient Behavioral Health in Albuquerque at Kaseman Hospital', 90140095798);
 insert into DischargeSummaryDischargeLocation (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 05699724843);
 
+

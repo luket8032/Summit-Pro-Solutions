@@ -52,3 +52,4 @@ insert into Patient_attitude_status (mse_check_eval_attit_calm, mse_check_eval_a
 insert into Patient_attitude_status (mse_check_eval_attit_calm, mse_check_eval_attit_cooperative, mse_check_eval_attit_uncooperative, mse_check_eval_attit_belligerent, mse_check_eval_negativistic, mse_check_eval_suspicous, mse_check_eval_attit_apathetic, mse_check_eval_attit_fearful, ACN) values (1, 1, 0, 0, 0, 0, 0, 0, 05699724843);
 
 
+

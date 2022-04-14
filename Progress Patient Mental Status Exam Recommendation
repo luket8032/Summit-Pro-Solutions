@@ -56,3 +56,4 @@ insert into Progess_Patient_Mental_Status_Exam_Recommendation (mse_check_pn_rec_
 insert into Progess_Patient_Mental_Status_Exam_Recommendation (mse_check_pn_rec_med_stabilization, mse_check_pn_rec_milieu_therapy, mse_check_pn_rec_med_management, mse_check_pn_rec_coping_skills, mse_check_pn_rec_group_therapy, mse_check_pn_rec_participation, mse_opentxt_pn_rec_other, progress_note_date, ACN) values (0, 1, 0, 0, 0, 0, 0, '01/23/2022', 49498809929);
 insert into Progess_Patient_Mental_Status_Exam_Recommendation (mse_check_pn_rec_med_stabilization, mse_check_pn_rec_milieu_therapy, mse_check_pn_rec_med_management, mse_check_pn_rec_coping_skills, mse_check_pn_rec_group_therapy, mse_check_pn_rec_participation, mse_opentxt_pn_rec_other, progress_note_date, ACN) values (0, 0, 0, 0, 1, 0, 0, '08/06/2021', 80829362529);
 
+

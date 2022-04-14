@@ -50,3 +50,4 @@ insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkemp
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '02/23/2022', 53239821780);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '01/23/2022', 49498809929);
 insert into Progress_Patient_hygiene_status (pn_hygiene_kempt, pn_hygiene_unkempt, pn_hygiene_malodorous, progress_note_date, ACN) values (1, 0, 0, '08/06/2021', 80829362529);
+

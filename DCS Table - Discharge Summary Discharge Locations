@@ -25,7 +25,7 @@ insert into DischargeSummaryDischargeLocation (dcs_disch_loc_name, ACN) values (
 insert into DischargeSummaryDischargeLocation (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 74649674998);
 insert into DischargeSummaryDischargeLocation (dcs_disch_loc_name, ACN) values ('Mesilla Valley Hospital', 71297297573);
 insert into DischargeSummaryDischargeLocation (dcs_disch_loc_name, ACN) values ('Mesilla Valley Hospital', 65541665839);
-insert into DischargeSummaryDischargeLocation (dcs_disch_loc_name, ACN) values ('UNM Children's Psychiatric', 47690387353);
+insert into DischargeSummaryDischargeLocation (dcs_disch_loc_name, ACN) values ('UNM Childrens Psychiatric', 47690387353);
 insert into DischargeSummaryDischargeLocation (dcs_disch_loc_name, ACN) values ('Peak Behavioral Health Services', 48119830340);
 insert into DischargeSummaryDischargeLocation (dcs_disch_loc_name, ACN) values ('Central Desert Behavioral Health Hospital', 91885989859);
 insert into DischargeSummaryDischargeLocation (dcs_disch_loc_name, ACN) values ('Presbyterian Inpatient Behavioral Health in Albuquerque at Kaseman Hospital', 31179873541);

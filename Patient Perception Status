@@ -54,3 +54,4 @@ insert into Patient_perception_status  (mse_check_eval_perc_auditory, mse_check_
 insert into Patient_perception_status  (mse_check_eval_perc_auditory, mse_check_eval_perc_command, mse_check_eval_perc_visual, mse_check_eval_perc_tactile, mse_check_eval_perc_olfactory, mse_check_eval_perc_gustatory, mse_check_eval_perc_illusions, mse_check_eval_perc_depersonalization, mse_check_eval_perc_derealization, mse_check_eval_perc_no_alteration, mse_opentxt_eval_perc_other, ACN) values (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 90140095798);
 insert into Patient_perception_status  (mse_check_eval_perc_auditory, mse_check_eval_perc_command, mse_check_eval_perc_visual, mse_check_eval_perc_tactile, mse_check_eval_perc_olfactory, mse_check_eval_perc_gustatory, mse_check_eval_perc_illusions, mse_check_eval_perc_depersonalization, mse_check_eval_perc_derealization, mse_check_eval_perc_no_alteration, mse_opentxt_eval_perc_other, ACN) values (1, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 05699724843);
 
+

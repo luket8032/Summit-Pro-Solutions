@@ -45,4 +45,3 @@ insert into Estimated_length_of_stay (len_check_eval_sameday, len_check_eval_ove
 insert into Estimated_length_of_stay (len_check_eval_sameday, len_check_eval_overnight, len_check_eval_recommend_inpatient_stay, ACN) values (1, 0, 0, 74370793028);
 insert into Estimated_length_of_stay (len_check_eval_sameday, len_check_eval_overnight, len_check_eval_recommend_inpatient_stay, ACN) values (1, 0, 0, 90140095798);
 insert into Estimated_length_of_stay (len_check_eval_sameday, len_check_eval_overnight, len_check_eval_recommend_inpatient_stay, ACN) values (1, 0, 0, 05699724843);
-

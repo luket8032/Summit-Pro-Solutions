@@ -10,3 +10,4 @@ INSERT INTO Medication_Dosage_Frequency_List (medication_rx_idcode, medication_r
 INSERT INTO Medication_Dosage_Frequency_List (medication_rx_idcode, medication_rx_name) VALUES (5, 'every 12 hours');
 INSERT INTO Medication_Dosage_Frequency_List (medication_rx_idcode, medication_rx_name) VALUES (6, 'once a week');
 INSERT INTO Medication_Dosage_Frequency_List (medication_rx_idcode, medication_rx_name) VALUES (7, 'once a month');
+

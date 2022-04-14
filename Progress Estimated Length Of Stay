@@ -51,3 +51,4 @@ insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_p
 insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '02/23/2022', 53239821780);
 insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '01/23/2022', 49498809929);
 insert into Progress_Estimated_Length_of_Stay (len_check_pn_sameday, len_check_pn_overnight, len_check_pn_recommend_inpatient_stay, len_check_pn_to_be_determined, progress_note_date, ACN) VALUES (1, 0, 0, 0, '08/06/2021', 80829362529);
+

@@ -48,3 +48,4 @@ insert into Patient_admission_reason (reason_self_danger, reason_deterioration, 
 insert into Patient_admission_reason (reason_self_danger, reason_deterioration, reason_inability, reason_psychosis, reason_dependency, ACN) values (0, 1, 0, 0, 0, 90140095798);
 insert into Patient_admission_reason (reason_self_danger, reason_deterioration, reason_inability, reason_psychosis, reason_dependency, ACN) values (0, 1, 0, 0, 0, 05699724843);
 
+

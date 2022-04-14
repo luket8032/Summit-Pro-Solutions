@@ -56,3 +56,4 @@ insert into Progress_Patient_Attitude_Status (mse_check_pn_attit_calm, mse_check
 insert into Progress_Patient_Attitude_Status (mse_check_pn_attit_calm, mse_check_pn_attit_cooperative, mse_check_pn_attit_uncooperative, mse_check_pn_attit_belligerent, mse_check_pn_attit_negativistic, mse_check_pn_attit_suspicous, mse_check_pn_attit_apathetic, mse_check_pn_attit_fearful, progress_note_date, ACN) values (1, 1, 0, 0, 0, 0, 0, 0, '01/23/2022', 49498809929);
 insert into Progress_Patient_Attitude_Status (mse_check_pn_attit_calm, mse_check_pn_attit_cooperative, mse_check_pn_attit_uncooperative, mse_check_pn_attit_belligerent, mse_check_pn_attit_negativistic, mse_check_pn_attit_suspicous, mse_check_pn_attit_apathetic, mse_check_pn_attit_fearful, progress_note_date, ACN) values (1, 1, 0, 0, 0, 0, 0, 0, '08/06/2021', 80829362529);
 
+

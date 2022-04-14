@@ -46,4 +46,3 @@ insert into Family_history_of_psychiatric_disorders (fhp_psych_disord_name, fhp_
 insert into Family_history_of_psychiatric_disorders (fhp_psych_disord_name, fhp_psych_disord_family_member, fhp_check_psych_disord_none, fhp_check_psych_disord_patient_dna, ACN) values ('Bipolar', 'Uncle', 0, 0, 74370793028);
 insert into Family_history_of_psychiatric_disorders (fhp_psych_disord_name, fhp_psych_disord_family_member, fhp_check_psych_disord_none, fhp_check_psych_disord_patient_dna, ACN) values (NULL, NULL, 0, 1, 90140095798);
 insert into Family_history_of_psychiatric_disorders (fhp_psych_disord_name, fhp_psych_disord_family_member, fhp_check_psych_disord_none, fhp_check_psych_disord_patient_dna, ACN) values ('Anxiety disorder', 'Grandparents', 0, 0, 05699724843);
-

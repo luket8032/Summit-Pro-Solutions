@@ -47,3 +47,4 @@ insert into Previous_non_suicide_injurious_behavior  (pph_prev_diagnosis_nonsus_
 insert into Previous_non_suicide_injurious_behavior  (pph_prev_diagnosis_nonsus_injury, pph_check_prev_diagnosis_nonsus_injury_none, pph_check_prev_diagnosis_nonsus_injury_patient_dna, ACN) values (NULL, 1, 0, 05699724843);
 
 
+

@@ -52,3 +52,4 @@ insert into Progress_Patient_Grooming_Status (mse_check_pn_grm_well_cladded, mse
 insert into Progress_Patient_Grooming_Status (mse_check_pn_grm_well_cladded, mse_check_pn_grm_clumsy, mse_check_pn_grm_good_eyecontact, mse_check_pn_grm_bad_eyecontact, progress_note_date, ACN) values (1, 0, 1, 0, '02/23/2022', 53239821780); 
 insert into Progress_Patient_Grooming_Status (mse_check_pn_grm_well_cladded, mse_check_pn_grm_clumsy, mse_check_pn_grm_good_eyecontact, mse_check_pn_grm_bad_eyecontact, progress_note_date, ACN) values (1, 0, 1, 0, '01/23/2022', 49498809929); 
 insert into Progress_Patient_Grooming_Status (mse_check_pn_grm_well_cladded, mse_check_pn_grm_clumsy, mse_check_pn_grm_good_eyecontact, mse_check_pn_grm_bad_eyecontact, progress_note_date, ACN) values (1, 0, 1, 0, '08/06/2021', 80829362529);
+

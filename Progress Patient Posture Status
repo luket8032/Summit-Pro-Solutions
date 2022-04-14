@@ -51,3 +51,4 @@ insert into Progress_Patient_Posture_Status (mse_check_pn_posture_normal, mse_ch
 insert into Progress_Patient_Posture_Status (mse_check_pn_posture_normal, mse_check_pn_posture_stooped, mse_check_pn_posture_kyphosis, progress_note_date, ACN) values (1, 0, 0, '02/23/2022', 53239821780);
 insert into Progress_Patient_Posture_Status (mse_check_pn_posture_normal, mse_check_pn_posture_stooped, mse_check_pn_posture_kyphosis, progress_note_date, ACN) values (1, 0, 0, '01/23/2022', 49498809929);
 insert into Progress_Patient_Posture_Status (mse_check_pn_posture_normal, mse_check_pn_posture_stooped, mse_check_pn_posture_kyphosis, progress_note_date, ACN) values (1, 0, 0, '08/06/2021', 80829362529);
+

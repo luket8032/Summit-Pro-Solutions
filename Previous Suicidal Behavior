@@ -47,3 +47,4 @@ insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_p
 insert into Previous_suicide_attempt  (pph_prev_suicide_attempt_qty, pph_check_prev_suicide_attempt_none, pph_check_prev_suicide_attempt_dna, ACN) values (0, 0, 1, 05699724843);
 
 
+

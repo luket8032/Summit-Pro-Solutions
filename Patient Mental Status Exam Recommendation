@@ -50,3 +50,4 @@ insert into Patient_mental_status_exam_recommendation (mse_check_eval_rec_med_st
 insert into Patient_mental_status_exam_recommendation (mse_check_eval_rec_med_stabilization, mse_check_eval_rec_milieu_therapy, mse_check_eval_rec_med_management, nse_check_eval_rec_coping_skills, mse_check_eval_rec_group_therapy, mse_check_eval_rec_participation, mse_opentxt_eval_rec_other, ACN) values (1, 1, 0, 1, 1, 0, NULL, 90140095798);
 insert into Patient_mental_status_exam_recommendation (mse_check_eval_rec_med_stabilization, mse_check_eval_rec_milieu_therapy, mse_check_eval_rec_med_management, nse_check_eval_rec_coping_skills, mse_check_eval_rec_group_therapy, mse_check_eval_rec_participation, mse_opentxt_eval_rec_other, ACN) values (1, 0, 1, 0, 1, 0, NULL, 05699724843);
 
+
